@@ -23,6 +23,7 @@
  e) a área do retângulo que tem lados A e B. 
 <p>
 <p>
+<p>
  <h3>2) Exercícios de Estruturas Condicionais:</h3>
 <p>
  <h4>Estrutura_Cond_EX1:</h4> Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
