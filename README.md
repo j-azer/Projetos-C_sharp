@@ -1,6 +1,6 @@
 # Projetos-C_sharp
 <p>
- <h5>1) Exercícios de Estruturas Sequências:</h5>
+ <h3>1) Exercícios de Estruturas Sequências:</h3>
 <p>
  Estrutura_Seq_EX1: Faça um programa para cálcular a área de um terreno e após inserir o preço do metro quadrado, ele retorne  a área e quanto custa esse terreno.
 <p>
@@ -23,7 +23,7 @@
  e) a área do retângulo que tem lados A e B. 
 <p>
 <p>
- <h5>2) Exercícios de Estruturas Condicionais:</h5>
+ <h3>2) Exercícios de Estruturas Condicionais:</h3>
 <p>
  Estrutura_Cond_EX1: Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
 <p>
