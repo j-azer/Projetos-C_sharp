@@ -2,7 +2,7 @@
 <p>
  <h3>1) Exercícios de Estruturas Sequências:</h3>
 <p>
- Estrutura_Seq_EX1: Faça um programa para cálcular a área de um terreno e após inserir o preço do metro quadrado, ele retorne  a área e quanto custa esse terreno.
+ <h4>Estrutura_Seq_EX1:</h4> Faça um programa para cálcular a área de um terreno e após inserir o preço do metro quadrado, ele retorne  a área e quanto custa esse terreno.
 <p>
  Estrutura_Seq_EX2: Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma mensagem explicativa.
 <p>
