@@ -1,4 +1,4 @@
-# Projetos-C_sharp
+# Enunciados: Projetos-C_sharp
 <p>
  <h3>1) Exercícios de Estruturas Sequências:</h3>
 <p>
@@ -50,7 +50,7 @@
 <p>
 <p>
 <p>
-<h4>Estrutura_Cond_EX9:</h4> Leia um número qualquer e novamente leia outro número qualquer. A seguir, faça a comparação entre eles dizendo se é MAIOR, MENOR ou IGUAL e faça com que o programa se repita até que o usuário não queira mais continuar.
+<h4>Estrutura_Cond_EX9:</h4> Leia dois números quaisquer e a seguir faça a comparação entre eles dizendo se é MAIOR, MENOR ou IGUAL e faça com que o programa se repita até que o usuário não queira mais continuar.
 <p>
 <p>
 <p>
