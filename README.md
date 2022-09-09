@@ -22,6 +22,12 @@
  d) a área do quadrado que tem lado B.<p> 
  e) a área do retângulo que tem lados A e B. 
 <p>
+<h4>Estrutura_Seq_EX8:</h4> Fazer um programa que leia o valor do produto, em seguida leia o desconto e calcule e mostre o resultado do novo valor deste produto na tela, e se repita até que o usuário não queira mais continuar.
+<p> 
+<h4>Estrutura_Seq_EX9:</h4> Fazer um programa que leia o valor do salario de um funcionario, em seguida leia o percentual de aumento e calcule e mostre o resultado do novo salario na tela, e se repita até que o usuário não queira mais continuar.
+<p> 
+<p>
+<p>
 <p>
 <p>
  <h3>2) Exercícios de Estruturas Condicionais:</h3>
@@ -36,6 +42,18 @@
 <p>
 <p>
  <h4>Estrutura_Cond_EX4:</h4> Leia a hora inicial e a hora final de um período de trabalho. A seguir calcule a duração das horas trabalhadas, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<h4>Estrutura_Cond_EX9:</h4> Leia um número qualquer e novamente leia outro número qualquer. A seguir, faça a comparação entre eles dizendo se é MAIOR, MENOR ou IGUAL e faça com que o programa se repita até que o usuário não queira mais continuar.
+<p>
+<p>
+<p>
 <p>
 <p>
 CONTINUA....
