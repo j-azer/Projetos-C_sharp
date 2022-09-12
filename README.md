@@ -46,7 +46,6 @@
  <h4>Estrutura_Cond_EX5:</h4> Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.
 <p>
 <p>|CODIGO| - | ESPECIFICACAO | - | PRECOS |
-<p>|                                       |
 <p>| 1         Cachorro Quente     U$ 4.00 |
 <p>| 2         X-Salada            U$ 4.50 |
 <p>| 3         X-Bancon            U$ 5.00 |
