@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_Orient_Obj_Construt_EX10", "Prog_Orient_Obj_Construt_EX10\Prog_Orient_Obj_Construt_EX10.csproj", "{50354FF3-055A-4B37-9187-B1BF42396DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50354FF3-055A-4B37-9187-B1BF42396DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50354FF3-055A-4B37-9187-B1BF42396DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50354FF3-055A-4B37-9187-B1BF42396DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50354FF3-055A-4B37-9187-B1BF42396DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A97DB4-E0E7-43E5-A204-F25353C6AD52}
+	EndGlobalSection
+EndGlobal

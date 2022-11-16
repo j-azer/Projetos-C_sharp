@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog_Orient_Obj_ EX1", "Prog_Orient_Obj_ EX1\Prog_Orient_Obj_ EX1.csproj", "{D3D6177B-F145-4F31-BB60-B4C5A90F8FB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D6177B-F145-4F31-BB60-B4C5A90F8FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D6177B-F145-4F31-BB60-B4C5A90F8FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D6177B-F145-4F31-BB60-B4C5A90F8FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D6177B-F145-4F31-BB60-B4C5A90F8FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928E843B-CF7E-44F0-BAA4-6DF3FA542D17}
+	EndGlobalSection
+EndGlobal
