@@ -1,0 +1,70 @@
+﻿@page
+@model LibraryApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+<head>
+   <style>
+       body{
+           background-image: url('pictures/biblioteca.jpg');
+           background-repeat: no-repeat;
+           background-position: center 0;
+           background-size: cover;           
+       }
+   </style>
+</head>
+
+
+<body>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome!</h1>
+    <p>Control system of Books</p>
+    <br/>
+
+        <h1 class="display-4">Book List</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Title)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Author)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Editor)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Edition)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+                @foreach (var item in Model.Book)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Editor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Edition)
+                        </td>
+
+                    </tr>
+                }
+    </tbody>
+</table>
+</div>
+
+</body>
+
+

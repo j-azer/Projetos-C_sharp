@@ -1,4 +1,16 @@
-# Enunciados: Projetos-C_sharp
+# Folder Projects: 
+<h3>1) Contract_Manager:</h3>
+<p>
+<h3>2) Control_Of_Finances_App:</h3>
+<p>
+<h3>3) Library_App:</h3>
+<p>
+<h3>4) Social_Media:</h3>
+<p>
+<h3>5) Weather_Service:</h3>
+<p>
+<p>
+# Folder Education: 
 <p>
  <h3>1) Exercícios de Estruturas Sequências:</h3>
 <p>

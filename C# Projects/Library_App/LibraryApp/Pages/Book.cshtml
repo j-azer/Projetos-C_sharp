@@ -1,0 +1,80 @@
+﻿@page
+@model LibraryApp.Pages.BookModel
+@{
+    ViewData["Title"] = "Book List1";
+}
+
+<head>
+   <style>
+       body{
+           background-image: url('pictures/biblioteca5.jpg');
+           background-repeat: no-repeat;
+           background-position: center 0;
+           background-size: cover;           
+       }
+   </style>
+</head>
+
+
+<body>
+
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" asp-page="Books/Index">Add New Book</a>
+    </div>
+<br/>
+    <h1 class="display-4">Book List1</h1>
+
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Editor</th>  
+      <th scope="col">Edition</th>    
+      <th scope="col">Created</th> 
+      <th scope="col"></th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Agile Principles, Patterns, and Practices in C#</td>      
+      <td>Robert C. Martin</td>
+      <td>Pearson</td>
+      <td>5ª</td>
+      <td>2022/11/27</td>
+      <td>
+          <div class="btn-group" role="group">
+              <a role="button" class="btn btn-primary">Edit</a>
+              <a role="button" class="btn btn-danger">Delete</a>
+
+          </div>
+      </td>
+    </tr>  
+    <tr>
+      <th scope="row">2</th>
+      <td>Agile Principles, Patterns, and Practices in C#</td>      
+      <td>Robert C. Martin</td>
+      <td>Pearson</td>
+      <td>5ª</td>
+      <td>2022/11/27</td>
+      <td>
+          <div class="btn-group" role="group">
+              <a role="button" class="btn btn-primary">Edit</a>
+              <a role="button" class="btn btn-danger">Delete</a>
+
+          </div>
+      </td>
+    </tr>  
+  </tbody>
+</table>
+</div>
+
+    <p>Control system of Books</p>
+
+</body>
+
+
+

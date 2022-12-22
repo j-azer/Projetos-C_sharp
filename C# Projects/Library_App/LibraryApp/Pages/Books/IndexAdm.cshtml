@@ -1,0 +1,89 @@
+﻿@page
+@model LibraryApp.Pages.Books.IndexAdmModel 
+@{
+    ViewData["Title"] = "Administration Environment";
+}
+
+<head>
+   <style>
+       body{
+           background-image: url('pictures/biblioteca.jpg');
+           background-color: darkgrey;
+           background-repeat: no-repeat;
+           background-position: center 0;
+           background-size: cover;
+           
+       }
+   </style>
+</head>
+
+
+<body>
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" asp-page="Create">Add New Book</a>
+    </div>
+    <br/>
+    <h1 class="display-4">Administration Environment</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Title)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Author)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Editor)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Edition)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].Created)
+            </th>
+            <th>
+                        @Html.DisplayNameFor(model => model.Book[0].UserId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+                @foreach (var item in Model.Book)
+                {
+                        <tr>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                            </td>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                            </td>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.Editor)
+                            </td>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.Edition)
+                            </td>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.Created)
+                            </td>
+                            <td>
+                            @Html.DisplayFor(modelItem => item.UserId)
+                            </td>
+                            <td>
+                                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                                    <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                }
+    </tbody>
+</table>
+</div>
+
+<p>Control system of Books</p>
+
+
+</body>
