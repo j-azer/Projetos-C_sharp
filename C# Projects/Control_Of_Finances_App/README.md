@@ -28,7 +28,7 @@ AdminPwd: Admin@123456
 <p>
 ________________________________
 <p>
-Existe também um acesso "secreto"(que agora não é mais !!!), onde o usuário é levado a uma Home Page e lá ele consegue se tornar automaticamente um Role Admin, inserindo seu e-mail e uma senha válida, nos moldes que foram criadas acima. Após a numeração da porta é só colocar <b>/admin/secret/?pwd=pouco-segura<b> e terá acesso a esta página e poderá ter o role de admin e seus acessos.
+Existe também um acesso "secreto"(que agora não é mais !!!), onde o usuário é levado a uma Home Page e lá ele consegue se tornar automaticamente um Role Admin, inserindo seu e-mail e uma senha válida, nos moldes que foram criadas acima. Após a numeração da porta é só colocar <b>/admin/secret/?pwd=pouco-segura</b> e terá acesso a esta página e poderá ter o role de admin e seus acessos.
 <p>
 <p>
 <p>
