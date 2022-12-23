@@ -7,9 +7,13 @@
 <p>
 <h3>3º Library_App:</h3> Sistema simples de cadastro de livros.
 <p>
-<h3>4º Contract_Manager:</h3>
+<h3>4º Contract_Manager:</h3> Sistema simples de cadastro de contrato e cálculo dos mesmos baseado em regras expecíficas.
 <p>
-<h3>5º Social_Media:</h3>
+<h3>5º Social_Media:</h3> Sistema simples de postagens em midias sociais.
+<p>
+<p>
+<p>
+<p>
 <p>
 <p>
 <h1># Folder Education:</h1> 
