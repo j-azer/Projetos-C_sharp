@@ -4,6 +4,7 @@ using MoneyPlus.Data;
 using MoneyPlus.Data.Entities;
 using MoneyPlus.Services;
 using MoneyPlus.Services.EmailService;
+using MoneyPlus.Services.NewsService;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +26,7 @@ builder.Services.AddScoped<Account>();
 builder.Services.AddScoped<Transfer>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddHostedService<EmailBackgroundService>();
+builder.Services.AddScoped<INewsService, NewsService>();    
 
 
 var app = builder.Build();
