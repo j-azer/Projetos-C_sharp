@@ -1,13 +1,15 @@
-# Folder Projects: 
-<h3>1) Contract_Manager:</h3>
+# Folder Projects:
+<h3>Em ordem de complexidade e importância:</h3>
 <p>
-<h3>2) Control_Of_Finances_App:</h3>
+<h3>1º Control_Of_Finances_App / MoneyPlus:</h3> Este aplicativo, além de consumir uma API externa de notícias sobre o mercado financeiro que alimenta uma das home e enviar diáriamente e-mail ao usuário com seu resumo patrimonial atualizado, também tem o controle de receita e despesas, que permite o usuário ter diversas contas e transferir diferentes importâncias de valor entre elas, lançar despesas e atribuir a qual conta sai esta despesa. Esta App também disponibiliza alguns relatórios importantes para o usuário, e o principal deles é o de Lastro Patrimonial, onde o usuário define uma taxa média de inflação e uma taxa média de retorno dos seus investimentos e o sistema calcula, baseado em sua despesa média, quanto tempo o usuário pode estar em casa sem trabalhar.
 <p>
-<h3>3) Library_App:</h3>
+<h3>2º Weather_Service: </h3> Este aplicativo consome uma API externa que fornece informações sobre o tempo em um determinado local, pré-defido ou defido pelo usuário. 
 <p>
-<h3>4) Social_Media:</h3>
+<h3>3º Library_App:</h3> Sistema simples de cadastro de livros.
 <p>
-<h3>5) Weather_Service:</h3>
+<h3>4º Contract_Manager:</h3>
+<p>
+<h3>5º Social_Media:</h3>
 <p>
 <p>
 # Folder Education: 
