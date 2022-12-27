@@ -35,7 +35,7 @@ Existe também um acesso "secreto"(que agora não é mais !!!), onde o usuário 
 <p>
  <h4>Na confecção geral do Projeto:</h4> 
 <p>
-A maioria das consultas foram feitas à literaturas de C Sharp, porém, também achei necessário colocar todos os links do locais por onde passei na web, para que sirva de consulta futura, organização do projeto e confirmação de informações com mais facilidade.
+A maioria das consultas foram feitas à literaturas de C Sharp, porém, também achei necessário colocar todos os links dos locais por onde passei na web, para que sirva de consulta futura, organização do projeto e confirmação de informações com mais facilidade.
 <p>
 <p>
 https://datatables.net/
