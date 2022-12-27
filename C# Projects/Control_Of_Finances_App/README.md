@@ -1,14 +1,12 @@
 # Projeto C# Money Plus
 <p>
- <h3>Resumo do Projeto:</h3>
-<p>
-Escrever Resumo......
+ <h3>Resumo do Projeto:</h3> Este aplicativo, além de consumir uma API externa de notícias sobre o mercado financeiro que alimenta uma das home e enviar diáriamente e-mail ao usuário com seu resumo patrimonial atualizado, também tem o controle de receita e despesas, que permite o usuário ter diversas contas e transferir diferentes importâncias de valor entre elas, lançar despesas e atribuir a qual conta sai esta despesa. Esta App também disponibiliza alguns relatórios importantes para o usuário, e o principal deles é o de Lastro Patrimonial, onde o usuário define uma taxa média de inflação e uma taxa média de retorno dos seus investimentos e o sistema calcula, baseado em sua despesa média, quanto tempo o usuário pode estar em casa sem trabalhar.
 <p>
  <h3>Informações do Projeto:</h3>
 <p>
 Os dados da DB, estão em um arquivo de excel denominado <b>DB_MoneuPlus.xls</b> e disponíveis no e-mail que foi enviado e no repositório que foi compartilhado no link acima.
 <p>
-O Sistema de envio de e-mail foi testado com o tempo de 50 segundos funcionando perfeitamente e com isso fiz a alteração para 1 dia, o que é proposto para a realidade da aplicação. Caso deseje alterar para fins de teste, este código se encontra na pasta Services / Classe EmailBackgroundService / linha 9. Sugiro Também a substituição do e-mail fake(user@gmail.com) por um e-mail válido para o teste e a alteração deverá ser feita na coluna "Email" na DB_MoneyPlus e na dbo.AspNetUsers, aconselho também ir ao <b>appsettings.json</b> e efetuar a configuração do e-mail que será criado para que possa testar e ou utilizar a App em relação a função de envio de e-mail diário ao usuário com o posição atual das suas contas .
+O Sistema de envio de e-mail foi testado com o tempo de 50 segundos funcionando perfeitamente e com isso fiz a alteração para 1 dia, o que é proposto para a realidade da aplicação. Caso deseje alterar para fins de teste, este código se encontra na pasta Services / Classe EmailBackgroundService / linha 9. Sugiro Também a substituição do e-mail fake(user@gmail.com) por um e-mail válido para o teste e a alteração deverá ser feita na coluna "Email" na DB_MoneyPlus e na dbo.AspNetUsers, aconselho também ir ao <b>appsettings.json</b> e efetuar a configuração do e-mail que será criado para que possa testar e ou utilizar a App em relação a função de envio de e-mail diário ao usuário com o resumo patrimonial atualizado.
 <p>
 Em breve esta App terá o consumo de uma API na Home Page. Onde o usuário terá informação atual das principais fontes de notícias sobre o mercados financeiro e finanças em geral. 
 <p>
@@ -109,6 +107,14 @@ https://youtu.be/9WnIGwBitbw
 https://youtu.be/OGuQu13OiZk
 <p>
 https://youtu.be/ohV_BKXhHSI
+<p>
+<p>
+<p>
+<p>
+ <h4>Na confecção da API de Notícias Financeiras:</h4> 
+<p>
+https://youtu.be/MJEOPCEZW24
+<p>
 <p>
 <p>
 <p>
